@@ -1,8 +1,6 @@
 # C++
-IMAM C++ Language Code Project
 =======
-# PHP
-IMAM PHP Language Code Project 
+# PHP 
 =======
 # BACK-END
 BACKEND PROJECT
