@@ -14,12 +14,6 @@ int ID;
 string Name = "Imam Fauji Sugiarta";
 class Bank {
 
-    //struct Person {
-    //    int id;
-    //    string Name;
-    //    int age;
-    //    string address;
-    //};
 private:
     string name;
     string pin;
@@ -36,7 +30,7 @@ public:
         bool bSuccess = false;
         for (attempt = 0; attempt <= 3; attempt++) {
             cout << "\n Attempt : " << attempt << endl;
-            cout << "\n Enter Name : Imam Fauji Sugiarta";
+            cout << "\n Enter Name : " << Name;
             //cin.ignore(); // Clear the input buffer
             //getline(cin, name); // For void too much overbuffered
             //cin >> name;
@@ -190,7 +184,7 @@ int main()
         cout << "\t\t\t ----------------------------\n\n" << endl;
         cout << "\t\t\t -    WELCOME BRI TO ATM    -\n\n" << endl;
         cout << "\t\t\t ----------------------------\n\n\n" << endl;
-        cout << "\t\t\t Username : "<< Name << endl;
+        cout << "\t\t\t Username : "<< Name << endl << endl;
         cout << "1. Checking Balance and Withdraw" << endl;
         cout << "2. Deposit Cash" << endl;
         cout << "3. Exit" << endl;
